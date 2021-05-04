@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/videoCall"
+        android:icon="@drawable/ic_facetime_button"
+        android:title="Video Call"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/voiceCall"
+        android:icon="@drawable/ic_call"
+        android:title="Voice Call"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/setting"
+        android:title="Settings"
+        app:showAsAction="never" />
+</menu>
